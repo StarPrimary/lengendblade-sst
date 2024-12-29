@@ -1,0 +1,37 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:thorns",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:bloodkatana",
+  "properties": {
+    "attack_base": 25.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:heart_slashc",
+    "special_effects": [
+      "legendblade:bad_blood"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/named/bloodkatanat/model.obj",
+    "summon_sword_color": 16711697,
+    "texture": "legendblade:model/named/bloodkatanat/texture.png"
+  }
+}

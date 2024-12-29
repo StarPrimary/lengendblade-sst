@@ -1,0 +1,42 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:asmodeusex",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "legendblade:luxuria"
+    },
+    "B": {
+      "item": "legendblade:saligiasphere"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 5000,
+        "name": "legendblade:asmodeus",
+        "proud_soul": 35000,
+        "refine": 50
+      }
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:evilex"
+      }
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,49 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:nihilbxex",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:diamond_block"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 8000,
+        "name": "legendblade:nihilulex",
+        "proud_soul": 50000,
+        "refine": 20
+      }
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 8000,
+        "name": "slashblade_addon:nihilbx",
+        "proud_soul": 30000,
+        "refine": 20
+      }
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 8000,
+        "name": "legendblade:crimsoncherryex",
+        "proud_soul": 50000,
+        "refine": 20
+      }
+    }
+  },
+  "pattern": [
+    "ABA",
+    "ACA",
+    "ADA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

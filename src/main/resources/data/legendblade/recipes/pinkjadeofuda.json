@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "legendblade:lightpinkjadeofuda"
+    }
+  },
+  "result": {
+    "item": "legendblade:pinkjadeofuda"
+  }
+}

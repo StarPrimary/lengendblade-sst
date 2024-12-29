@@ -1,0 +1,34 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:power",
+      "lvl": 7
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 7
+    },
+    {
+      "id": "minecraft:efficiency",
+      "lvl": 3
+    }
+  ],
+  "name": "legendblade:belphegorex",
+  "properties": {
+    "attack_base": 16.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:soul_lock",
+    "special_effects": [
+      "legendblade:shackles",
+      "legendblade:sin"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/bladeex/belphegorex/belphegorex.obj",
+    "summon_sword_color": 8703,
+    "texture": "legendblade:model/bladeex/belphegorex/belphegorex.png"
+  }
+}

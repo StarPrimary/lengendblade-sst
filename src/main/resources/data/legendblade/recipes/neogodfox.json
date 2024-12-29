@@ -1,0 +1,80 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:neogodfox",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 777,
+        "name": "slashblade:fox_white"
+      }
+    },
+    "B": {
+      "item": "kubejs:source_crystal"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 777,
+        "name": "slashblade:fox_black"
+      }
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 777,
+        "name": "slashblade:fox_fire"
+      }
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 1500,
+        "name": "legendblade:godfox",
+        "proud_soul": 1500,
+        "refine": 30
+      }
+    },
+    "F": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 777,
+        "name": "slashblade:fox_water"
+      }
+    },
+    "G": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 777,
+        "name": "slashblade:fox_blood"
+      }
+    },
+    "H": {
+      "item": "mowziesmobs:grant_suns_blessing"
+    },
+    "I": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 777,
+        "name": "slashblade:fox_cold"
+      }
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

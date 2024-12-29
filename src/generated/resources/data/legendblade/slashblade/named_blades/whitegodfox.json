@@ -1,0 +1,15 @@
+{
+  "name": "legendblade:whitegodfox",
+  "properties": {
+    "attack_base": 12.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:drive_vertical",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/named/whitegodfox/model.obj",
+    "texture": "legendblade:model/named/whitegodfox/texture.png"
+  }
+}

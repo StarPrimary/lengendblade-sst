@@ -1,0 +1,37 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 6
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:thorns",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:shinku",
+  "properties": {
+    "attack_base": 25.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:heart_slash",
+    "special_effects": [
+      "legendblade:blade_attack"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/named/shinku/model.obj",
+    "summon_sword_color": 16711697,
+    "texture": "legendblade:model/named/shinku/texture.png"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:evil",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "slashblade:slashblade"
+    },
+    "D": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    "DAD"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

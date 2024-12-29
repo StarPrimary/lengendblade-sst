@@ -1,0 +1,44 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:crowbar",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:redstone_block"
+    },
+    "B": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:unbreaking",
+            "lvl": 3
+          }
+        ],
+        "kill": 1000,
+        "name": "slashblade_addon:fluorescent_bar",
+        "proud_soul": 1500,
+        "refine": 10
+      }
+    },
+    "D": {
+      "item": "minecraft:obsidian"
+    },
+    "E": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DED"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

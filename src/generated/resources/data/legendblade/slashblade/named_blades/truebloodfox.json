@@ -1,0 +1,37 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:knockback",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:fortune",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:truebloodfox",
+  "properties": {
+    "attack_base": 25.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:split_apart",
+    "special_effects": [
+      "legendblade:bloodfox"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/named/truegodfox/model.obj",
+    "summon_sword_color": 16711697,
+    "texture": "legendblade:model/blood/demonfox/demonfox.png"
+  }
+}

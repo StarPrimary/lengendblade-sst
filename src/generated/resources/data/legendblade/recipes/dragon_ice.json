@@ -1,0 +1,28 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:dragon_ice",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "iceandfire:ice_dragon_blood"
+    },
+    "B": {
+      "item": "iceandfire:dragonbone"
+    },
+    "C": {
+      "item": "slashblade:slashblade"
+    },
+    "D": {
+      "item": "iceandfire:dragonbone_sword_ice"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DBA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

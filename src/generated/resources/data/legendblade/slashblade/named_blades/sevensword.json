@@ -1,0 +1,29 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 15
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    }
+  ],
+  "name": "legendblade:sevensword",
+  "properties": {
+    "attack_base": 30.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:sevenbladeslash",
+    "special_effects": [
+      "legendblade:fragmentededge"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/sevensword/model.obj",
+    "summon_sword_color": 10289407,
+    "texture": "legendblade:model/sevensword/texture.png"
+  }
+}

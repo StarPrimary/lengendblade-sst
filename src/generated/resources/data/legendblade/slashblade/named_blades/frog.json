@@ -1,0 +1,30 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:fortune",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:frog",
+  "properties": {
+    "attack_base": 20.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:frog_glaxy",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/lostblade/frog/frog.obj",
+    "summon_sword_color": 16766464,
+    "texture": "legendblade:model/lostblade/frog/frog.png"
+  }
+}

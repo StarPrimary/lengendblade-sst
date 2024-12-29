@@ -1,0 +1,33 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:sevensword",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 4000,
+        "name": "yakumoblade:hundred_curses"
+      }
+    },
+    "P": {
+      "item": "callfromthedepth_:soulingot"
+    },
+    "R": {
+      "item": "callfromthedepth_:soulenergycrystall"
+    },
+    "S": {
+      "item": "callfromthedepth_:dark_abyssscythe"
+    }
+  },
+  "pattern": [
+    "PRP",
+    "PBP",
+    "PSP"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "name": "legendblade:ark",
+  "properties": {
+    "attack_base": 15.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:hosswords",
+    "special_effects": [
+      "legendblade:hossword"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/ark/ark.obj",
+    "summon_sword_color": 10289407,
+    "texture": "legendblade:model/ark/ark.png"
+  }
+}

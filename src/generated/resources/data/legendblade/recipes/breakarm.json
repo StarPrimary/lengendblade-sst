@@ -1,0 +1,39 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:breakarm",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "twilightforest:knightmetal_sword"
+    },
+    "B": {
+      "item": "twilightforest:knight_phantom_trophy"
+    },
+    "C": {
+      "item": "twilightforest:knightmetal_axe"
+    },
+    "D": {
+      "item": "twilightforest:knightmetal_pickaxe"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 3000,
+        "refine": 30
+      }
+    },
+    "F": {
+      "item": "twilightforest:block_and_chain"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DED",
+    "CFA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

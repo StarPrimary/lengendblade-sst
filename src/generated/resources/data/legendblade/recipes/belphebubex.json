@@ -1,0 +1,53 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:belphebubex",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "legendblade:gula"
+    },
+    "B": {
+      "item": "legendblade:saligiaex"
+    },
+    "C": {
+      "item": "legendblade:acedia"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:belphegor",
+        "proud_soul": 3000,
+        "refine": 10
+      }
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 2000,
+        "name": "legendblade:evilex",
+        "proud_soul": 3000,
+        "refine": 10
+      }
+    },
+    "F": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:beelzebub",
+        "proud_soul": 3000,
+        "refine": 10
+      }
+    }
+  },
+  "pattern": [
+    "ADC",
+    "BEB",
+    "CFA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,30 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 3
+    }
+  ],
+  "name": "legendblade:demonbird",
+  "properties": {
+    "attack_base": 20.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:bloodbirdthrust",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/godbird/model.obj",
+    "summon_sword_color": 16711680,
+    "texture": "legendblade:model/blood/demonbird/texture.png"
+  }
+}

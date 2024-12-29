@@ -1,0 +1,19 @@
+{
+  "name": "legendblade:evilex",
+  "properties": {
+    "attack_base": 10.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:drive_vertical",
+    "special_effects": [
+      "legendblade:sin"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/bladeex/evilex/evilex.obj",
+    "summon_sword_color": 14540253,
+    "texture": "legendblade:model/bladeex/evilex/evilex.png"
+  }
+}

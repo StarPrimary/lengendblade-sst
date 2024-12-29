@@ -1,0 +1,44 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:knockback",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:fire_protection",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:feather_falling",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:respiration"
+    }
+  ],
+  "name": "legendblade:neogodfox",
+  "properties": {
+    "attack_base": 24.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:mpss",
+    "special_effects": [
+      "legendblade:blessingsummonsword"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/named/neogodfox/model.obj",
+    "summon_sword_color": 15906304,
+    "texture": "legendblade:model/named/neogodfox/texture.png"
+  }
+}

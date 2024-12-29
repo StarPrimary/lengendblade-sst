@@ -1,0 +1,33 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="${loader_version_range}" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="${mod_license}"
+[[mods]]
+modId="legendblade"
+version="10-SST"
+displayName="legendblade"
+authors="Dinzeer and TheFlareStar and tianyi and canyuesama"
+description='''Integrate and release three slavhblade addons from the Chinese MINECRAFT forum in versions 1.12.2 and 1.7.10 to version 1.20.1'''
+[[dependencies.legendblade]] #optional
+   # the modid of the dependency
+   modId="forge" #mandatory
+   # Does this dependency have to exist - if not, ordering below must be specified
+   mandatory=true #mandatory
+   # The version range of the dependency
+   versionRange="${forge_version_range}" #mandatory
+   ordering="NONE"
+   side="BOTH"# Here's another dependency
+[[dependencies.legendblade]]
+   modId="minecraft"
+   mandatory=true
+   # This version range declares a minimum of the current minecraft version up to but not including the next major version
+   versionRange="${minecraft_version_range}"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.legendblade]]
+modId="slashblade"
+mandatory=true
+versionRange="1.1.4"
+ordering="NONE"
+side="BOTH"
+

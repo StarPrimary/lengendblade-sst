@@ -1,0 +1,38 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:thorns",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:feather_falling",
+      "lvl": 10
+    }
+  ],
+  "name": "legendblade:godbird",
+  "properties": {
+    "attack_base": 15.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:birdthrust",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/godbird/model.obj",
+    "summon_sword_color": 65343,
+    "texture": "legendblade:model/godbird/texture.png"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:bane_of_arthropods",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:fireiron",
+  "properties": {
+    "attack_base": 20.0,
+    "max_damage": 80,
+    "slash_art": "slashblade_addon:spiral_edge",
+    "special_effects": [
+      "legendblade:fireiron"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/named/truegodfox/model.obj",
+    "summon_sword_color": 14749969,
+    "texture": "legendblade:model/tfcompat/fireiron.png"
+  }
+}

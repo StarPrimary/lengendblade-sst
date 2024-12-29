@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul"
+    },
+    "B": {
+      "item": "minecraft:ice"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "item": "legendblade:ice_gem"
+  },
+  "show_notification": true
+}

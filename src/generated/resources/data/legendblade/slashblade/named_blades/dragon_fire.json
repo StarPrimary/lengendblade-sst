@@ -1,0 +1,25 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    }
+  ],
+  "name": "legendblade:dragon_fire",
+  "properties": {
+    "attack_base": 13.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:firesummonsword",
+    "special_effects": [
+      "legendblade:fire"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/icfcompat/icf/model.obj",
+    "summon_sword_color": 16477711,
+    "texture": "legendblade:model/icfcompat/icf/fire.png"
+  }
+}

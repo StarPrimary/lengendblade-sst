@@ -1,0 +1,35 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:foreverice",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "iceandfire:dragonsteel_ice_ingot"
+    },
+    "B": {
+      "item": "iceandfire:ice_dragon_blood"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 3000,
+        "name": "legendblade:dragon_ice",
+        "proud_soul": 65000,
+        "refine": 20
+      }
+    },
+    "D": {
+      "item": "iceandfire:dragon_skull_ice"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BCB",
+    "ADA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

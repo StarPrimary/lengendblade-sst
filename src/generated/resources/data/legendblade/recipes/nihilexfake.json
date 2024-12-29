@@ -1,0 +1,31 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:nihilexfake",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "D": {
+      "item": "slashblade:slashblade"
+    },
+    "E": {
+      "item": "legendblade:blood_tachi"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "BDB",
+    "EBA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

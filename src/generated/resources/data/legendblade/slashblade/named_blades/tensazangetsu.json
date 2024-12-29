@@ -1,0 +1,29 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:fortune",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:tensazangetsu",
+  "properties": {
+    "attack_base": 17.0,
+    "max_damage": 80,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/lostblade/tensazangetsu/model.obj",
+    "summon_sword_color": 16711680,
+    "texture": "legendblade:model/lostblade/tensazangetsu/texture.png"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 2
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 2
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 2
+    },
+    {
+      "id": "minecraft:fortune"
+    },
+    {
+      "id": "minecraft:punch"
+    }
+  ],
+  "name": "legendblade:mammon",
+  "properties": {
+    "attack_base": 16.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:greedy_grip",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/named/mammon/mammon.obj",
+    "summon_sword_color": 16737792,
+    "texture": "legendblade:model/named/mammon/mammon.png"
+  }
+}

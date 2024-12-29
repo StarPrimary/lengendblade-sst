@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.dinzeer.legendblade.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "legendblade.refmap.json",
+  "mixins": [
+    "MoDaoMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

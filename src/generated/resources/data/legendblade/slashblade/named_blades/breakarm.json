@@ -1,0 +1,37 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:bane_of_arthropods",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:breakarm",
+  "properties": {
+    "attack_base": 18.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:wave_edge",
+    "special_effects": [
+      "legendblade:breakarm"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/named/truegodfox/model.obj",
+    "summon_sword_color": 32768,
+    "texture": "legendblade:model/tfcompat/breakarm.png"
+  }
+}

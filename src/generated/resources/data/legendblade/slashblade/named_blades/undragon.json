@@ -1,0 +1,34 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:bane_of_arthropods",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 9
+    }
+  ],
+  "name": "legendblade:undragon",
+  "properties": {
+    "attack_base": 32.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:swordrain",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/lostblade/undragon/undragon.obj",
+    "summon_sword_color": 16711680,
+    "texture": "legendblade:model/lostblade/undragon/undragon.png"
+  }
+}

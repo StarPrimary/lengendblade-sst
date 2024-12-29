@@ -1,0 +1,38 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:administrator",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 50000,
+        "name": "slashblade_addon:kirisaya",
+        "proud_soul": 55000,
+        "refine": 100
+      }
+    },
+    "D": {
+      "item": "minecraft:lapis_block"
+    },
+    "E": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DED"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

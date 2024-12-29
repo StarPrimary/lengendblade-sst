@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:frog",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:ghast_tear"
+    },
+    "B": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 3000,
+        "proud_soul": 20000,
+        "refine": 5
+      }
+    },
+    "D": {
+      "item": "legendblade:ice_gem"
+    },
+    "E": {
+      "item": "minecraft:ice"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "ECE",
+    "ADA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

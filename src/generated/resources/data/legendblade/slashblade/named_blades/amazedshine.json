@@ -1,0 +1,33 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:infinity",
+      "lvl": 10
+    }
+  ],
+  "name": "legendblade:amazedshine",
+  "properties": {
+    "attack_base": 23.0,
+    "max_damage": 300,
+    "slash_art": "legendblade:slashshine",
+    "special_effects": [
+      "legendblade:theshine"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/testmyability/testmyability.obj",
+    "summon_sword_color": 16769536,
+    "texture": "legendblade:model/testmyability/testmyability.png"
+  }
+}

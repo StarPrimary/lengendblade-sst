@@ -1,0 +1,14 @@
+{
+  "name": "legendblade:rustgodfox",
+  "properties": {
+    "attack_base": 5.0,
+    "max_damage": 80,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/named/rustgodfox/model.obj",
+    "texture": "legendblade:model/named/rustgodfox/texture.png"
+  }
+}

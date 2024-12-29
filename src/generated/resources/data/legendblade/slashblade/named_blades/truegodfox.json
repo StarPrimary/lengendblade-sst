@@ -1,0 +1,52 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:knockback",
+      "lvl": 2
+    },
+    {
+      "id": "minecraft:fortune",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:fire_protection",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:feather_falling",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:respiration"
+    }
+  ],
+  "name": "legendblade:truegodfox",
+  "properties": {
+    "attack_base": 22.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:prowess",
+    "special_effects": [
+      "legendblade:blessing"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/named/truegodfox/model.obj",
+    "summon_sword_color": 15906304,
+    "texture": "legendblade:model/named/truegodfox/texture.png"
+  }
+}

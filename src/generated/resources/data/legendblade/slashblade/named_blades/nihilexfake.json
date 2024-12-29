@@ -1,0 +1,15 @@
+{
+  "name": "legendblade:nihilexfake",
+  "properties": {
+    "attack_base": 10.0,
+    "max_damage": 80,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/named/nihilexfake/model.obj",
+    "summon_sword_color": 16711697,
+    "texture": "legendblade:model/named/nihilexfake/texture.png"
+  }
+}

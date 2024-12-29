@@ -1,0 +1,34 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 10
+    }
+  ],
+  "name": "legendblade:foreverice",
+  "properties": {
+    "attack_base": 30.0,
+    "max_damage": 800,
+    "slash_art": "legendblade:icesummonsword",
+    "special_effects": [
+      "legendblade:ice",
+      "legendblade:icfbreaker"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/icfcompat/icfex/terra.obj",
+    "summon_sword_color": 46079,
+    "texture": "legendblade:model/icfcompat/icfex/ice.png"
+  }
+}

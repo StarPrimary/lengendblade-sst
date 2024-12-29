@@ -1,0 +1,46 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 15
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:mending",
+      "lvl": 10
+    }
+  ],
+  "name": "legendblade:nihilbxex",
+  "properties": {
+    "attack_base": 35.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:sakura_endex",
+    "special_effects": [
+      "legendblade:endsakurateriseup",
+      "legendblade:waveedgeriseup"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/nihill/nihilbloodex.obj",
+    "summon_sword_color": 16711680,
+    "texture": "legendblade:model/nihill/nihilbx.png"
+  }
+}

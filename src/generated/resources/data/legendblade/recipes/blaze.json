@@ -1,0 +1,35 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:blaze",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "iceandfire:dragonsteel_fire_ingot"
+    },
+    "B": {
+      "item": "iceandfire:fire_dragon_blood"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 3000,
+        "name": "legendblade:dragon_fire",
+        "proud_soul": 65000,
+        "refine": 20
+      }
+    },
+    "D": {
+      "item": "iceandfire:dragon_skull_fire"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BCB",
+    "ADA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

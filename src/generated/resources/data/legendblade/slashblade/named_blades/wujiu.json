@@ -1,0 +1,38 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:protection",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:thorns",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:wujiu",
+  "properties": {
+    "attack_base": 30.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:swordone",
+    "special_effects": [
+      "legendblade:liuli",
+      "legendblade:liulione"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/yaoxing/wujiu.obj",
+    "summon_sword_color": 12434877,
+    "texture": "legendblade:model/yaoxing/wujiu.png"
+  }
+}

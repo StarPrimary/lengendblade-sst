@@ -1,0 +1,41 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:neo",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "l2hostility:miracle_ingot"
+    },
+    "B": {
+      "item": "l2hostility:chaos_ingot"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 5000,
+        "name": "legendblade:ark",
+        "proud_soul": 55000,
+        "refine": 20
+      }
+    },
+    "D": {
+      "item": "legendblade:saligiasphere"
+    },
+    "E": {
+      "item": "l2complements:cursed_droplet"
+    },
+    "F": {
+      "item": "l2hostility:witch_droplet"
+    }
+  },
+  "pattern": [
+    "BEA",
+    "FCF",
+    "DEB"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,26 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 15
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 7
+    }
+  ],
+  "name": "legendblade:lightningex",
+  "properties": {
+    "attack_base": 20.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:lighting_swordsex",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/kaumyex/kamuyex.obj",
+    "summon_sword_color": 16766720,
+    "texture": "legendblade:model/kaumyex/lightning.png"
+  }
+}

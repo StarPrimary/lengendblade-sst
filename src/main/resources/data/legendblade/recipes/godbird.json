@@ -1,0 +1,38 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:godbird",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "projecte:aeternalis_fuel"
+    },
+    "B": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "C": {
+      "item": "alexscaves:amber_curiosity"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 2000,
+        "name": "slashblade:hongliu",
+        "proud_soul": 15000,
+        "refine": 15
+      }
+    },
+    "E": {
+      "item": "alexscaves:extinction_spear"
+    }
+  },
+  "pattern": [
+    "ABE",
+    "CDC",
+    "EBA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

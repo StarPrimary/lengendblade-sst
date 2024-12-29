@@ -1,0 +1,30 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:power",
+      "lvl": 4
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:efficiency",
+      "lvl": 2
+    }
+  ],
+  "name": "legendblade:belphegor",
+  "properties": {
+    "attack_base": 15.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:soul_lock",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/named/belphegor/belphegor.obj",
+    "summon_sword_color": 8703,
+    "texture": "legendblade:model/named/belphegor/belphegor.png"
+  }
+}

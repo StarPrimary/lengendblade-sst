@@ -1,0 +1,34 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 10
+    }
+  ],
+  "name": "legendblade:zerogalaxy",
+  "properties": {
+    "attack_base": 30.0,
+    "max_damage": 800,
+    "slash_art": "legendblade:lightningsummonsword",
+    "special_effects": [
+      "legendblade:lightning",
+      "legendblade:icfbreaker"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/icfcompat/icfex/terra.obj",
+    "summon_sword_color": 8847615,
+    "texture": "legendblade:model/icfcompat/icfex/lightning.png"
+  }
+}

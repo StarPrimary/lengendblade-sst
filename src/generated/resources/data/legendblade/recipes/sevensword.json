@@ -1,0 +1,45 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:sevensword",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:netherite_block"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 10000,
+        "name": "legendblade:nihilexfake",
+        "proud_soul": 50000,
+        "refine": 20
+      }
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 10000,
+        "name": "slashblade_addon:kirisaya",
+        "proud_soul": 30000,
+        "refine": 20
+      }
+    },
+    "D": {
+      "item": "minecraft:dragon_egg"
+    },
+    "E": {
+      "item": "legendblade:blood_tachi"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "DCD",
+    "AEA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

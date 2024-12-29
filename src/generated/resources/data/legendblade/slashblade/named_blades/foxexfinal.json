@@ -1,0 +1,46 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:smite",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:bane_of_arthropods",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    }
+  ],
+  "name": "legendblade:foxexfinal",
+  "properties": {
+    "attack_base": 35.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:sakura_endex",
+    "special_effects": [
+      "legendblade:summonsword",
+      "legendblade:foxbling"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/foxex/model2.obj",
+    "summon_sword_color": 16187647,
+    "texture": "legendblade:model/foxex/texture3.png"
+  }
+}

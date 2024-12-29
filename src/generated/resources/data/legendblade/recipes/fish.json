@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:fish",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:water_bucket"
+    },
+    "B": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "C": {
+      "item": "minecraft:ice"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 300,
+        "proud_soul": 1500,
+        "refine": 3
+      }
+    },
+    "E": {
+      "item": "legendblade:water_gem"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

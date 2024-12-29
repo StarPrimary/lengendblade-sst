@@ -1,0 +1,35 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:zerogalaxy",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "iceandfire:dragonsteel_lightning_ingot"
+    },
+    "B": {
+      "item": "iceandfire:lightning_dragon_blood"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 3000,
+        "name": "legendblade:dragon_lightning",
+        "proud_soul": 65000,
+        "refine": 20
+      }
+    },
+    "D": {
+      "item": "iceandfire:dragon_skull_lightning"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BCB",
+    "ADA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

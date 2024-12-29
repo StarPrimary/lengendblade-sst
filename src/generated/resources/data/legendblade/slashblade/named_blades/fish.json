@@ -1,0 +1,34 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:protection",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:fire_protection",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:sweeping",
+      "lvl": 2
+    },
+    {
+      "id": "minecraft:feather_falling",
+      "lvl": 2
+    }
+  ],
+  "name": "legendblade:fish",
+  "properties": {
+    "attack_base": 17.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:save_all",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/lostblade/fish/fish.obj",
+    "summon_sword_color": 54527,
+    "texture": "legendblade:model/lostblade/fish/fish.png"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:fire_protection",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:feather_falling",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:respiration"
+    }
+  ],
+  "name": "legendblade:godfox",
+  "properties": {
+    "attack_base": 22.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:monster_power",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/named/godfox/model.obj",
+    "summon_sword_color": 15906304,
+    "texture": "legendblade:model/named/godfox/texture.png"
+  }
+}

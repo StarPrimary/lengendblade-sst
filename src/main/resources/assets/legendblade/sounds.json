@@ -1,0 +1,10 @@
+{
+  "godbird": {
+    "sounds": [
+      {
+        "name": "legendblade:godbird",
+        "stream": false
+      }
+    ]
+  }
+}

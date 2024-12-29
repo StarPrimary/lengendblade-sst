@@ -1,0 +1,41 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:foxexfinal",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "kubejs:source_crystal"
+    },
+    "B": {
+      "item": "mowziesmobs:grant_suns_blessing"
+    },
+    "C": {
+      "item": "minecraft:glowstone"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 4500,
+        "name": "legendblade:foxex2",
+        "proud_soul": 24000,
+        "refine": 20
+      }
+    },
+    "E": {
+      "item": "hs_bosses:sand_sword_test"
+    },
+    "F": {
+      "item": "blue_skies:sunstone_block"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "FEF"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

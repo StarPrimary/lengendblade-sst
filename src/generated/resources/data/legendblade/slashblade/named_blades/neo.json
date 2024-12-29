@@ -1,0 +1,34 @@
+{
+  "enchantments": [
+    {
+      "id": "l2complements:soul_flame_blade",
+      "lvl": 3
+    },
+    {
+      "id": "l2complements:sharp_blade",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    }
+  ],
+  "name": "legendblade:neo",
+  "properties": {
+    "attack_base": 20.0,
+    "max_damage": 80,
+    "slash_art": "legendblade:hosswords",
+    "special_effects": [
+      "legendblade:hossword",
+      "legendblade:ark"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "legendblade:model/icfcompat/icf/model.obj",
+    "summon_sword_color": 10289407,
+    "texture": "legendblade:model/ark/neo.png"
+  }
+}

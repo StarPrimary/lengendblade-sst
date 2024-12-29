@@ -1,0 +1,42 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "legendblade:mammonex",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "legendblade:avaritia"
+    },
+    "B": {
+      "item": "legendblade:saligiasphere"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 5000,
+        "name": "legendblade:mammon",
+        "proud_soul": 35000,
+        "refine": 50
+      }
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "legendblade:evilex"
+      }
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

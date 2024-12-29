@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "legendblade:acedia"
+    },
+    "B": {
+      "item": "legendblade:avaritia"
+    },
+    "C": {
+      "item": "legendblade:gula"
+    },
+    "D": {
+      "item": "legendblade:ira"
+    },
+    "E": {
+      "item": "legendblade:invidia"
+    },
+    "F": {
+      "item": "legendblade:superbia"
+    },
+    "G": {
+      "item": "legendblade:luxuria"
+    }
+  },
+  "pattern": [
+    "ABC",
+    " D ",
+    "EFG"
+  ],
+  "result": {
+    "item": "legendblade:saligiaex"
+  },
+  "show_notification": true
+}
