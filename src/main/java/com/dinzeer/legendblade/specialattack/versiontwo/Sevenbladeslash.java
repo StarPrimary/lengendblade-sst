@@ -71,7 +71,7 @@ if (Config.sevenbladesKill){
             var pos = EntityPointer.raycastForEntityTo(playerIn.level(), playerIn, 10, false);
             playerIn.level().addFreshEntity(sevenSkillField);
             sevenSkillField.setDuring(110);
-            sevenSkillField.setDamage((float) ((LivingEntity) playerIn).getAttributeValue(Attributes.ATTACK_DAMAGE) * 0.4f);
+            sevenSkillField.setDamage((float) ((LivingEntity) playerIn).getAttributeValue(Attributes.ATTACK_DAMAGE) * 0.1f);
             sevenSkillField.setPos(Objects.requireNonNullElse(pos, playerIn).getOnPos().getCenter().add(0, 5, 0));
             sevenSkillField.setOwner(playerIn);
             sevenSkillField.setSIZE(8);

@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber
 public class BlessingSummonSword extends SpecialEffect {
     public BlessingSummonSword() {
-        super(60,false,false);
+        super(90,false,false);
     }
     @SubscribeEvent
     public static void onDoingSlash(SlashBladeEvent.DoSlashEvent event) {

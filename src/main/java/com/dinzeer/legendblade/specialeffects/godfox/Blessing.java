@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber
 public class Blessing extends SpecialEffect {
     public Blessing() {
-        super(20,false,false);
+        super(50,false,false);
     }
 
     @SubscribeEvent

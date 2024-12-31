@@ -2,7 +2,7 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 15
+      "lvl": 10
     },
     {
       "id": "minecraft:unbreaking",
@@ -11,7 +11,7 @@
   ],
   "name": "legendblade:sevensword",
   "properties": {
-    "attack_base": 32.0,
+    "attack_base": 28.0,
     "max_damage": 2048,
     "slash_art": "srelic:explashon",
     "special_effects": [

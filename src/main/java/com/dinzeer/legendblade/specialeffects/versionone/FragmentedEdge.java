@@ -6,7 +6,7 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber
 public class FragmentedEdge extends SpecialEffect {
     public FragmentedEdge() {
-        super(0,false,false);
+        super(150,false,false);
     }
 
 }

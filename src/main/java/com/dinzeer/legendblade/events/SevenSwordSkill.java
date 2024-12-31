@@ -136,7 +136,7 @@ public class SevenSwordSkill {
                 if (entity2 instanceof LivingEntity livingEntity){
                     if (entity2!=entity){
                         livingEntity.invulnerableTime = 0;
-                        entity2.hurt(new DamageSource(entity2.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC), entity), (float) entity.getAttributeValue(Attributes.ATTACK_DAMAGE)*5);
+                        entity2.hurt(new DamageSource(entity2.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC), entity), (float) entity.getAttributeValue(Attributes.ATTACK_DAMAGE)*1);
 
                     }
                 }
@@ -160,7 +160,7 @@ public class SevenSwordSkill {
 
 
                         drive.setPos(_center.x, _center.y, _center.z);
-                        drive.setDamage(21f);
+                        drive.setDamage(1.5f);
                         drive.setSpeed(1.0f+i*0.2f);
                         Vec3 directionVec = sevenSkillField.position().subtract(entity.position()).normalize();
 
@@ -173,15 +173,14 @@ public class SevenSwordSkill {
                 }
             }
         }
-
-
     }
+
         public static void a(LivingEntity entity,ItemStack stack,LivingEntity tartget2) {
             if (stack.getTag()==null)return;
             if (!stack.getTag().getBoolean("UnLock")) return;
             if (SlashbladeUtils.hasSpecialEffect(stack, (LBSpecialEffectsRegistry.FragmentedEdge.getId()).toString())) {
                 if (entity.hasEffect(Legendblade.EffectAbout.MO_DAO.get()))return;
-                LivingEntity target = EntityPointer.raycastForEntityTo(entity.level(), entity, 32, true);
+                LivingEntity target = EntityPointer.raycastForEntityTo(entity.level(), entity, 16, true);
                 if (target == null) {
                     Optional<LivingEntity> targetedEntity = EntityPointer.findTargetedEntity(entity, 10);
                     if (targetedEntity.isEmpty()) return;
@@ -203,7 +202,7 @@ public class SevenSwordSkill {
 
 
                 drive.setPos(pos.x, pos.y, pos.z);
-                drive.setDamage(5f);
+                drive.setDamage(1f);
                 drive.setSpeed(1.2f);
                 Vec3 directionVec = target.position().subtract(entity.position()).normalize();
 
@@ -242,7 +241,7 @@ public class SevenSwordSkill {
                 entity.addEffect(new MobEffectInstance(Legendblade.EffectAbout.HIT_DAMAGE.get(), 25, 2));
                 target.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 3));
                 entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 100, 2));
-                entity.addEffect(new MobEffectInstance(MobEffects.HUNGER, 30, 5));
+                // entity.addEffect(new MobEffectInstance(MobEffects.HUNGER, 30, 5));
                 entity.addEffect(new MobEffectInstance(MobEffects.UNLUCK, 30, 5));
                 entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 100, 2));
 

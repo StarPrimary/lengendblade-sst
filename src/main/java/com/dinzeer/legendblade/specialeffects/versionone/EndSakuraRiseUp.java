@@ -15,7 +15,7 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber
 public class EndSakuraRiseUp extends SpecialEffect {
     public EndSakuraRiseUp() {
-        super(30,false,false);
+        super(150,false,false);
     }
     @SubscribeEvent
     public static void onDoingSlash(SlashBladeEvent.DoSlashEvent event) {
